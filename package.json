@@ -1,0 +1,25 @@
+{
+  "name": "local-ask",
+  "version": "1.0.0",
+  "description": "ask test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "gino bernardi",
+  "license": "ISC",
+  "keywords": [
+    "amazon",
+    "alexa",
+    "ask"
+  ],
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "alexa-app-server": "^2.2.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "request-promise": "^3.0.0"
+  }
+}
