@@ -73,7 +73,7 @@ describe('DivvyDataHelper', function() {
         station.availableDocks = 10;
         station.availableBikes = station.totalDocks - station.availableDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('There are 10 available docks and 9 available bikes at Peoria St & Jackson Blvd');
+        expect(subject.formatStationStatus(station)).to.eq('There are 10 available docks and 9 available bikes at Peoria St and Jackson Blvd');
       });
     });
 
@@ -84,7 +84,7 @@ describe('DivvyDataHelper', function() {
         station.availableDocks = 0;
         station.availableBikes = station.totalDocks - station.availableDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('Peoria St & Jackson Blvd is full. There are 19 bikes and 0 available docks.');
+        expect(subject.formatStationStatus(station)).to.eq('Peoria St and Jackson Blvd is full. There are 19 bikes and 0 available docks.');
       });
     });
 
@@ -95,7 +95,7 @@ describe('DivvyDataHelper', function() {
         station.availableBikes = 0;
         station.availableDocks = station.totalDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('Peoria St & Jackson Blvd is empty. There are 0 bikes and 19 available docks.');
+        expect(subject.formatStationStatus(station)).to.eq('Peoria St and Jackson Blvd is empty. There are 0 bikes and 19 available docks.');
       });
     });
   });
@@ -131,7 +131,7 @@ describe('DivvyDataHelper', function() {
         station.availableDocks = 10;
         station.availableBikes = station.totalDocks - station.availableDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('There are 10 available docks and 9 available bikes at Peoria St & Jackson Blvd');
+        expect(subject.formatStationStatus(station)).to.eq('There are 10 available docks and 9 available bikes at Peoria St and Jackson Blvd');
       });
     });
 
@@ -142,7 +142,7 @@ describe('DivvyDataHelper', function() {
         station.availableDocks = 0;
         station.availableBikes = station.totalDocks - station.availableDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('Peoria St & Jackson Blvd is full. There are 19 bikes and 0 available docks.');
+        expect(subject.formatStationStatus(station)).to.eq('Peoria St and Jackson Blvd is full. There are 19 bikes and 0 available docks.');
       });
     });
 
@@ -153,7 +153,7 @@ describe('DivvyDataHelper', function() {
         station.availableBikes = 0;
         station.availableDocks = station.totalDocks;
 
-        expect(subject.formatStationStatus(station)).to.eq('Peoria St & Jackson Blvd is empty. There are 0 bikes and 19 available docks.');
+        expect(subject.formatStationStatus(station)).to.eq('Peoria St and Jackson Blvd is empty. There are 0 bikes and 19 available docks.');
       });
     });
   });
