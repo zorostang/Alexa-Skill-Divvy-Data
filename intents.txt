@@ -1,0 +1,567 @@
+Michigan Ave & Balbo Ave
+Shedd Aquarium
+Burnham Harbor
+State St & Harrison St
+Dusable Harbor
+Field Blvd & South Water St
+Leavitt St & Archer Ave
+Jeffery Blvd & 71st St
+South Shore Dr & 71st St
+Wilton Ave & Diversey Pkwy
+Morgan St & 18th St
+Racine Ave & 18th St
+Paulina Ave & North Ave
+Wood St & Division St
+Wacker Dr & Washington St
+Loomis St & Taylor St
+Sheffield Ave & Kingsbury St
+Aberdeen St & Jackson Blvd
+May St & Taylor St
+Orleans St & Elm St
+Fairbanks Ct & Grand Ave
+Michigan Ave & Pearson St
+McClurg Ct & Illinois St
+Larrabee St & North Ave
+Larrabee St & Menomonee St
+Noble St & Milwaukee Ave
+Ashland Ave & Augusta Blvd
+Franklin St & Chicago Ave
+Racine Ave & Congress Pkwy
+State St & Van Buren St
+Cannon Dr & Fullerton Ave
+Streeter Dr & Grand Ave
+Franklin St & Jackson Blvd
+Dearborn St & Adams St
+Clark St & Lake St
+Wabash Ave & Adams St
+LaSalle St & Adams St
+Federal St & Polk St
+Wabash Ave & Cermak Rd
+Michigan Ave & Washington St
+State St & Randolph St
+Michigan Ave & Congress Pkwy
+Wells St & Walton St
+State St & Kinzie St
+Larrabee St & Kingsbury St
+Dearborn St & Monroe St
+Clark St & Congress Pkwy
+Clark St & Randolph St
+Michigan Ave & Lake St
+Wells St & Huron St
+Ogden Ave & Chicago Ave
+Halsted St & Roosevelt Rd
+Desplaines St & Kinzie St
+Clinton St & Roosevelt Rd
+Marshfield Ave & Cortland St
+Wabash Ave & Roosevelt Rd
+Dayton St & North Ave
+Wood St & Milwaukee Ave
+McCormick Place
+Clinton St & Lake St
+Sheffield Ave & Fullerton Ave
+Clinton St & Tilden St
+Damen Ave & Pierce Ave
+Morgan St & Lake St
+Wabash Ave & 16th St
+Jefferson St & Monroe St
+Kingsbury St & Erie St
+Canal St & Jackson Blvd
+Lake Shore Dr & Monroe St
+Clinton St & Madison St
+Aberdeen St & Monroe St
+Daley Center Plaza
+Union Ave & Grand Ave
+Michigan Ave & Oak St
+Eckhart Park
+Racine Ave & Fullerton Ave
+May St & Randolph St
+Financial Pl & Congress Pkwy
+Millennium Park
+Clinton St & Washington Blvd
+Carpenter St & Huron St
+Sheffield Ave & Willow St
+Clark St & Armitage Ave
+Stony Island Ave & 64th St
+Desplaines St & Randolph St
+Museum Campus
+LaSalle St & Washington St
+Lake Shore Dr & Ohio St
+Orleans St & Merchandise Mart Plaza
+63rd St Beach
+Stony Island Ave & 67th St
+Clinton St & Polk St
+State St & Pearson St
+Desplaines St & Jackson Blvd
+Halsted St & Polk St
+900 W Harrison St
+Dearborn St & Erie St
+Sedgwick St & Huron St
+Green St & Randolph St
+Bissell St & Armitage Ave
+Sheffield Ave & Addison St
+Sheffield Ave & Wellington Ave
+Western Ave & Winnebago Ave
+Wilton Ave & Belmont Ave
+Sedgwick St & North Ave
+Ashland Ave & Lake St
+Wentworth Ave & Archer Ave
+Blackstone Ave & Hyde Park Blvd
+Ogden Ave & Congress Pkwy
+California Ave & Milwaukee Ave
+Damen Ave & Cullerton St
+Rush St & Hubbard St
+Clark St & North Ave
+Lincoln Ave & Fullerton Ave
+Damen Ave & Chicago Ave
+Blue Island Ave & 18th St
+Damen Ave & Division St
+Lincoln Ave & Belmont Ave
+Wentworth Ave & 24th St
+Kingsbury St & Kinzie St
+Peoria St & Jackson Blvd
+Halsted St & 21st St
+Racine Ave & 13th St
+Morgan Ave & 14th Pl
+Clybourn Ave & Division St
+Dearborn Pkwy & Delaware Pl
+Clark St & Lincoln Ave
+McClurg Ct & Erie St
+Sedgwick St & Webster Ave
+Larrabee St & Webster Ave
+Mies van der Rohe Way & Chestnut St
+Loomis St & Jackson Blvd
+Indiana Ave & 26th St
+State St & 33rd St
+Calumet Ave & 33rd St
+Fort Dearborn Dr & 31st St
+Lincoln Ave & Diversey Pkwy
+Southport Ave & Wellington Ave
+Southport Ave & Belmont Ave
+Clark St & Wellington Ave
+Lake Shore Dr & Wellington Ave
+Milwaukee Ave & Wabansia Ave
+Claremont Ave & Hirsch St
+Campbell Ave & North Ave
+Rush St & Superior St
+Damen Ave & Wellington Ave
+Damen Ave & Clybourn Ave
+Franklin St & Lake St
+Clark St & Grace St
+Ashland Ave & Wrightwood Ave
+Damen Ave & Coulter St
+Michigan Ave & 14th St
+Canal St & Harrison St
+Clinton St & 18th St
+May St & Cullerton St
+Rush St & Cedar St
+Mies van der Rohe Way & Chicago Ave
+Canal St & Madison St
+Wells St & Polk St
+Clark St & Elm St
+Theater on the Lake
+State St & 19th St
+MLK Jr Dr & Oakwood Blvd
+Ritchie Ct & Banks St
+LaSalle St & Illinois St
+Wells St & Elm St
+Damen Ave & Augusta Blvd
+State St & 35th St
+Stave St & Armitage Ave
+Ogden Ave & Race Ave
+Greenview Ave & Fullerton Ave
+Southport Ave & Wrightwood Ave
+Canal St & Monroe St 
+Canal St & Adams St
+State St & 29th St
+Wabash Ave & Wacker Pl
+Columbus Dr & Randolph St
+Cityfront Plaza Dr & Pioneer Ct
+Michigan Ave & Madison St
+Green St & Madison St
+Wabash Ave & Grand Ave
+MLK Jr Dr & 47th St
+Indiana Ave & 40th St
+Halsted St & 18th St
+Western Ave & 21st St
+Prairie Ave & Garfield Blvd
+Paulina St & 18th St
+Halsted St & Archer Ave
+Emerald Ave & 28th St
+Ashland Ave & 21st St
+Normal Ave & Archer Ave
+Ashland Ave & Division St
+St. Clair St & Erie St
+Orleans St & Ohio St
+Leavitt St & North Ave
+Damen Ave & Grand Ave
+Damen Ave & Madison St
+California Ave & Division St
+May St & Fulton St
+Wells St & 19th St
+Damen Ave & Cortland St
+Hampden Ct & Diversey Pkwy
+Milwaukee Ave & Rockwell St
+Clifton Ave & Armitage Ave
+Halsted St & Willow St
+Halsted St & Dickens Ave
+Racine Ave & Belmont Ave
+Southport Ave & Waveland Ave
+Damen Ave & Melrose Ave
+Southport Ave & Roscoe St
+Lincoln Ave & Roscoe St
+Sheridan Rd & Montrose Ave
+Pine Grove Ave & Waveland Ave
+Sangamon St & Washington Blvd 
+Clark St & Montrose Ave
+Sedgwick St & Schiller St
+MLK Jr Dr & 29th St
+Ravenswood Ave & Montrose Ave 
+Western Ave & Leland Ave
+Sheridan Rd & Irving Park Rd
+Morgan St & Polk St
+Damen Ave & Leland Ave
+Lincoln Ave & Leavitt St
+Ravenswood Ave & Irving Park Rd
+Clarendon Ave & Junior Ter
+Ashland Ave & Belle Plaine Ave
+Shore Dr & 55th St
+Woodlawn Ave & 55th St
+Montrose Harbor
+Ashland Ave & Wellington Ave
+Clarendon Ave & Leland Ave
+Greenwood Ave & 47th St
+Clifton Ave & Lawrence Ave
+Pine Grove Ave & Irving Park Rd
+Indiana Ave & Roosevelt Rd
+Broadway & Sheridan Rd
+Lincoln Ave & Waveland Ave
+Logan Blvd & Elston Ave
+California Ave & Francis Pl
+Kedzie Ave & Milwaukee Ave
+Hermitage Ave & Polk St
+Halsted St & 37th St
+Rhodes Ave & 32nd St
+Stetson Ave & South Water St
+Cottage Grove Ave & Oakwood Blvd
+Lake Park Ave & 47th St
+Lake Shore Dr & North Blvd
+Stony Island Ave & 75th St
+Cottage Grove Ave & 43rd St
+Indiana Ave & 31st St
+Michigan Ave & 18th St
+Racine Ave & 15th St
+Ashland Ave & 13th St
+California Ave & North Ave
+Ashland Ave & Grand Ave
+Wallace St & 35th St
+Halsted St & 35th St 
+Morgan St & 31st St
+Western Ave & 24th St
+Halsted St & Maxwell St
+LaSalle St & Jackson Blvd
+Michigan Ave & Jackson Blvd
+Wood St & Grand Ave
+Franklin St & Quincy St
+Franklin St & Monroe St
+Larrabee St & Armitage Ave
+Wells St & Concord Ln
+Kedzie Ave & Palmer Ct
+Wells St & Evergreen Ave
+Southport Ave & Clark St
+Broadway & Wilson Ave
+Broadway & Berwyn Ave
+Broadway & Argyle St
+Broadway & Belmont Ave
+Paulina St & Montrose Ave
+Lincoln Ave & Belle Plaine Ave
+Halsted St & Roscoe St
+Broadway & Barry Ave
+Clark St & Schiller St
+Sheffield Ave & Wrightwood Ave
+Broadway & Cornelia Ave
+Broadway & Waveland Ave
+Western Ave & Division St
+Sheridan Rd & Buena Ave
+Southport Ave & Clybourn Ave
+Seeley Ave & Roscoe St
+Leavitt St & Armitage Ave
+Damen Ave & Charleston St
+Leavitt St & Lawrence Ave
+Clarendon Ave & Gordon Ter
+Lakeview Ave & Fullerton Pkwy
+Ravenswood Ave & Berteau Ave
+Elston Ave & Wabansia Ave
+Damen Ave & Sunnyside Ave
+Wood St & Taylor St
+Southport Ave & Irving Park Rd
+Greenview Ave & Diversey Pkwy
+Loomis St & Lexington St
+Wabash Ave & 8th St
+Kimbark Ave & 53rd St
+Sheridan Rd & Lawrence Ave
+Stockton Dr & Wrightwood Ave
+Clark St & Winnemac Ave
+Clark St & Leland Ave
+Sheffield Ave & Webster Ave
+Ellis Ave & 58th St
+Lake Shore Dr & Diversey Pkwy
+Lincoln Ave & Addison St
+Halsted St & Blackhawk St 
+Halsted St & Diversey Pkwy
+Ashland Ave & Blackhawk St
+Lake Shore Dr & Belmont Ave
+Calumet Ave & 35th St
+Cottage Grove Ave & 47th St
+Clark St & Chicago Ave
+Calumet Ave & 18th St
+Emerald Ave & 31st St
+Clark St & Wrightwood Ave
+Adler Planetarium
+Wolcott Ave & Polk St
+Racine Ave & Wrightwood Ave
+Ravenswood Ave & Lawrence Ave
+Lake Park Ave & 56th St
+Ada St & Washington Blvd
+Ashland Ave & Grace St
+California Ave & 21st St
+Halsted St & Wrightwood Ave
+Ashland Ave & Chicago Ave
+Cottage Grove Ave & 51st St
+Jeffery Blvd & 67th St
+Clark St & Touhy Ave
+Sheridan Rd & Greenleaf Ave
+South Shore Dr & 67th St
+Stony Island Ave & 71st St
+Larrabee St & Division St
+Larrabee St & Oak St
+Halsted St & North Branch St
+Loomis St & Archer Ave
+Racine Ave & 35th St
+Ashland Ave & Archer Ave
+Wood St & 35th St
+Calumet Ave & 21st St
+Humboldt Dr & Luis Munoz Marin Dr
+Kedzie Ave & Chicago Ave
+Western Ave & Walton St
+Sacramento Blvd & Franklin Blvd
+Artesian Ave & Hubbard St
+Kedzie Ave & Lake St
+California Ave & Lake St
+Western Ave & Monroe St
+Western Ave & Congress Pkwy
+Ashland Ave & Harrison St
+Halsted St & 51st St
+Princeton Ave & Garfield Blvd
+Halsted St & 56th St
+Halsted St & 63rd St
+Wentworth Ave & 63rd St
+Halsted St & 69th St
+Perry Ave & 69th St
+Calumet Ave & 71st St
+Clark St & 9th St
+Jeffery Blvd & 76th St
+Yates Blvd & 75th St
+Saginaw Ave & Exchange Ave
+Rainbow Beach
+South Shore Dr & 74th St
+Cottage Grove Ave & 71st St
+Shields Ave & 28th Pl
+Shields Ave & 31st St
+Wentworth Ave & 33rd St
+Wentworth Ave & 35th St
+Lake Park Ave & 35th St
+State St & Pershing Rd
+Union Ave & 42nd St
+Shields Ave & 43rd St
+Prairie Ave & 43rd St
+Halsted St & 47th Pl
+Princeton Ave & 47th St
+Woodlawn Ave & Lake Park Ave
+Canal St & Taylor St
+Calumet Ave & 51st St
+Dorchester Ave & 49th St
+Cornell Ave & Hyde Park Blvd
+Ellis Ave & 53rd St
+Lake Park Ave & 53rd St
+Ellis Ave & 55th St
+MLK Jr Dr & 56th St 
+DuSable Museum
+University Ave & 57th St
+Museum of Science and Industry
+Harper Ave & 59th St
+Ellis Ave & 60th St
+Cottage Grove Ave & 63rd St
+Dorchester Ave & 63rd St
+Cottage Grove Ave & 67th St
+MLK Jr Dr & 63rd St
+Eberhart Ave & 61st St
+Clark St & Lunt Ave
+Kedzie Ave & Harrison St
+Ogden Ave & Roosevelt Rd
+Kedzie Ave & Roosevelt Rd
+Fairfield Ave & Roosevelt Rd
+Washtenaw Ave & 15th St 
+Central Park Ave & Ogden Ave
+Kedzie Ave & 21st St
+Lawndale Ave & 23rd St
+Kedzie Ave & 24th St
+California Ave & 23rd Pl
+Millard Ave & 26th St
+Albany Ave & 26th St
+California Ave & 26th St
+Western Ave & 28th St
+Glenwood Ave & Morse Ave
+Warren Park East
+Clark St & Columbia Ave
+Warren Park West
+Sheridan Rd & Loyola Ave
+Western Ave & Granville Ave
+Clark St & Schreiber Ave
+Broadway & Granville Ave
+Maplewood Ave & Peterson Ave
+2112 W Peterson Ave
+Clark St & Elmdale Ave
+Broadway & Thorndale Ave
+Lakefront Trail & Bryn Mawr Ave
+Clark St & Bryn Mawr Ave
+Broadway & Ridge Ave
+Ravenswood Ave & Balmoral Ave
+Clark St & Berwyn Ave
+Damen Ave & Foster Ave
+Marine Dr & Ainslie St
+Ridge Blvd & Touhy Ave
+Western Ave & Lunt Ave
+Budlong Woods Library
+St. Louis Ave & Balmoral Ave
+Kedzie Ave & Foster Ave
+Francisco Ave & Foster Ave
+Lincoln Ave & Winona St
+Christiana Ave & Lawrence Ave
+Washtenaw Ave & Lawrence Ave
+Kedzie Ave & Leland Ave
+Manor Ave & Leland Ave
+Rockwell St & Eastwood Ave
+Drake Ave & Montrose Ave
+Kedzie Ave & Montrose Ave
+California Ave & Montrose Ave
+Campbell Ave & Montrose Ave
+Keeler Ave & Irving Park Rd
+Monticello Ave & Irving Park Rd
+Sawyer Ave & Irving Park Rd
+Oakley Ave & Irving Park Rd
+California Ave & Byron St
+Pulaski Rd & Eddy St
+Drake Ave & Addison St
+Troy St & Elston Ave
+Talman Ave & Addison St
+Leavitt St & Addison St
+Western Ave & Roscoe St
+Kedzie Ave & Bryn Mawr Ave
+Keystone Ave & Montrose Ave
+Avers Ave & Belmont Ave
+Kimball Ave & Belmont Ave
+California Ave & Fletcher St
+Kosciuszko Park
+Central Park Ave & Elbridge Ave
+Richmond St & Diversey Ave
+California Ave & Altgeld St
+Drake Ave & Fullerton Ave
+Campbell Ave & Fullerton Ave
+Winchester Ave & Elston Ave
+Spaulding Ave & Armitage Ave
+Humboldt Blvd & Armitage Ave
+Central Park Ave & North Ave
+Troy St & North Ave
+Spaulding Ave & Division St
+Albany Ave & Bloomingdale Ave
+Ridge Blvd & Howard St
+Paulina St & Howard St
+Clark St & Jarvis Ave
+Conservatory Dr & Lake St
+Wolcott Ave & Fargo Ave
+Greenview Ave & Jarvis Ave
+Bosworth Ave & Howard St
+Eastlake Ter & Rogers Ave
+Austin Blvd & Chicago Ave
+Glenwood Ave & Touhy Ave
+Oakley Ave & Touhy Ave
+Western Ave & Howard St
+Pulaski Rd & Lake St
+Cicero Ave & Lake St
+Laramie Ave & Kinzie St
+Austin Blvd & Lake St
+Central Park Blvd & 5th Ave
+Pulaski Rd & Madison St
+Pulaski Rd & Congress Pkwy
+Kostner Ave & Lake St
+Kenton Ave & Madison St
+Cicero Ave & Flournoy St
+Cicero Ave & Quincy St
+Laramie Ave & Madison St
+Central Ave & Harrison St
+Central Ave & Madison St
+Laramie Ave & Gladys Ave
+Mason Ave & Madison St
+Kostner Ave & Adams St
+Damen Ave & Pershing Rd
+Ashland Ave & Pershing Rd
+Morgan St & Pershing Rd
+Marshfield Ave & 44th St
+Central Ave & Chicago Ave
+Hoyne Ave & 47th St
+Ashland Ave & McDowell Ave
+Elizabeth St & 47th St
+Damen Ave & 51st St
+Ashland Ave & 50th St
+Throop St & 52nd St
+Damen Ave & Garfield Blvd
+Ashland Ave & Garfield Blvd
+Racine Ave & Garfield Blvd
+Marshfield Ave & 59th St
+Damen Ave & 61st St
+Racine Ave & 61st St
+Ashland Ave & 63rd St
+Racine Ave & 65th St
+Ashland Ave & 66th St
+Ashland Ave & 69th St
+May St & 69th St
+Normal Ave & 72nd St
+Woodlawn Ave & 75th St
+Evans Ave & 75th St
+Vernon Ave & 75th St
+State St & 76th St
+State St & 79th St
+Cottage Grove Ave & 78th St
+Greenwood Ave & 79th St
+Stony Island Ave & South Chicago Ave
+Chappel Ave & 79th St
+Phillips Ave & 79th St
+Exchange Ave & 79th St
+Milwaukee Ave & Cuyler Ave
+Kilbourn Ave & Irving Park Rd
+Knox Ave & Montrose Ave
+Halsted St & 59th St
+Western Blvd & 48th Pl
+Benson Ave & Church St
+Chicago Ave & Washington St
+Sherman Ave & Austin St
+Valli Produce Evanston Plaza
+Dodge Ave & Church St
+Central St Metra
+Central St & Girard Ave
+Chicago Ave & Sheridan Rd
+Sheridan Rd & Noyes St
+University Library
+Forest Ave & Chicago Ave
+Cuyler Ave & Augusta St
+Humphrey Ave & Ontario St
+Forest Ave & Lake St
+Marion St & South Blvd
+Oak Park Ave & South Blvd
+Wisconsin Ave & Madison St
+East Ave & Madison St
+Lombard Ave & Madison St
+Oak Park Ave & Harrison St
+East Ave & Garfield St
+Lombard Ave & Garfield St
+Keystone Ave & Fullerton Ave
