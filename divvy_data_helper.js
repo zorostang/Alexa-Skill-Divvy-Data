@@ -47,21 +47,21 @@ var findMatchingStation = function(stationData) {
 }
 
 DivvyDataHelper.prototype.requestNetworkStatus = function() {
-  return this.getNetworkStatus().then(
-    function(res) {
-      return res.body
-    }
-  )
+    return this.getNetworkStatus().then(
+        function(res) {
+            return res.body
+        }
+    )
 };
 
 DivvyDataHelper.prototype.getNetworkStatus = function() {
-  var options = {
-    method: 'GET',
-    uri: ENDPOINT,
-    resolveWithFullResponse: true,
-    json: true
-  };
-  return rp(options);
+    var options = {
+        method: 'GET',
+        uri: ENDPOINT,
+        resolveWithFullResponse: true,
+        json: true
+    };
+    return rp(options);
 }
 
 DivvyDataHelper.prototype.getStationStatus = function(stationName) {
