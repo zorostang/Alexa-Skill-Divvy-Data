@@ -1,9 +1,11 @@
 'use strict';
 
 var _ = require('lodash');
+var wuzzy = require('wuzzy');
 var rp = require('request-promise');
 var ENDPOINT = 'https://www.divvybikes.com/stations/json';
-var parsedStationName;
+
+var stationMatchingModel = {};
 
 function DivvyDataHelper() {}
 
@@ -14,14 +16,35 @@ function DivvyDataHelper() {}
 function removeStreetSuffix(string) {
   var streetSuffixes = [
   "street",
+  " st ",
+  " st",
   "boulevard",
+  " blvd ",
+  " blvd",
   "place",
+  " pl ",
+  " pl",
   "court",
+  " ct ",
+  " ct",
   "terrace",
+  " ter ",
+  " ter",
   "road",
+  " rd ",
+  " rd",
   "parkway",
+  " pkwy ",
+  " pkwy",
   "lane",
-  "drive"
+  " ln ",
+  " ln",
+  "drive",
+  " dr ",
+  " dr",
+  "avenue",
+  " ave ",
+  " ave"
  ];
   streetSuffixes.forEach(function(streetSuffix) {
     string = string.replace(streetSuffix, "");
@@ -30,44 +53,77 @@ function removeStreetSuffix(string) {
   return string;
 }
 
-var findMatchingStation = function(stationData) {
+function findMatchingStation(stationData) {
+  //if no exact match is found then create confidenceArray using wuzzy
+  // schema for confidenceObj = {[stationName1, stationName2, etc.],[confidenceScore1, confidenceScore2, etc ]}
+  var s = stationMatchingModel;
+  s.confidenceArray = [];
+  s.confidenceStationsArray = [];
+
   var match = _.filter(stationData.stationBeanList, function(station) {
-    if (parsedStationName.length == 2) {
+    if (s.parsedStationName.length == 2) {
       return station.stationName.toLowerCase()
-              .includes(parsedStationName[0].toLowerCase()) &&
+              .includes(s.parsedStationName[0].toLowerCase()) &&
               station.stationName.toLowerCase()
-              .includes(parsedStationName[1].toLowerCase());
+              .includes(s.parsedStationName[1].toLowerCase());
     } else {
       return station.stationName.toLowerCase()
-              .includes(parsedStationName[0].toLowerCase());
+              .includes(s.parsedStationName[0].toLowerCase());
     }
   });
   
-  return match[0];
+  // match should should return an exact match based on our primitive 
+  // matching algorithm
+  // if match is undefined then try using wuzzy to find a set of possible
+  // matches
+  // example: wuzzy(divvyStationName, interpretedStationName)
+  
+  if (typeof match[0] !== "undefined") { 
+    console.log(match[0].stationName, "match[0].stationName");
+    return match[0]; 
+  }
+  
+  _.forEach(stationData.stationBeanList, function(station) {
+    console.log(removeStreetSuffix(station.stationName.toLowerCase().replace('&','')), s.interpretedStationName.toLowerCase().replace(' and ',''));
+
+    s.confidenceArray.push(wuzzy.jarowinkler(removeStreetSuffix(station.stationName.toLowerCase().replace('&','')), s.interpretedStationName.toLowerCase().replace(' and ','')));
+    
+    s.confidenceStationsArray.push(station);
+  });
+  console.log(_.max(s.confidenceArray));
+  console.log(_.indexOf(s.confidenceArray,_.max(s.confidenceArray)));
+  return s.confidenceStationsArray[_.indexOf(s.confidenceArray,_.max(s.confidenceArray))];
 }
 
 DivvyDataHelper.prototype.requestNetworkStatus = function() {
-    return this.getNetworkStatus().then(
-        function(res) {
-            return res.body
-        }
-    )
+  return this.getNetworkStatus().then(
+    function(res) {
+      return res.body
+    }
+  )
 };
 
 DivvyDataHelper.prototype.getNetworkStatus = function() {
-    var options = {
-        method: 'GET',
-        uri: ENDPOINT,
-        resolveWithFullResponse: true,
-        json: true
-    };
-    return rp(options);
+  var options = {
+    method: 'GET',
+    uri: ENDPOINT,
+    resolveWithFullResponse: true,
+    json: true
+  };
+  return rp(options);
 }
 
+// returns the divvy station data for matching station
+// findMatchingStation firt looks for exact match, then uses wuzzy to look
+// for likely match
 DivvyDataHelper.prototype.getStationStatus = function(stationName) {
-  parsedStationName = removeStreetSuffix(stationName);
-  parsedStationName = parsedStationName.split(' and ');
-  return this.requestNetworkStatus().then(findMatchingStation)
+  var s = stationMatchingModel;
+  s.interpretedStationName = removeStreetSuffix(stationName);
+  s.parsedStationName = removeStreetSuffix(stationName);
+  s.parsedStationName = s.parsedStationName.split(' and ');
+  return this.requestNetworkStatus().then(function(res) {
+    return findMatchingStation(res);
+  });
 }
 
 DivvyDataHelper.prototype.formatStationStatus = function(station) {
@@ -75,7 +131,6 @@ DivvyDataHelper.prototype.formatStationStatus = function(station) {
   // 2. station is empty (0 bikes available)
   // 3. station is not full (1 or more docks available)
   // 4. station is not in service
-
   if (station.status !== "IN_SERVICE") {
     return "That station is currently out of service."
   }
@@ -88,19 +143,19 @@ DivvyDataHelper.prototype.formatStationStatus = function(station) {
 
   if (station.availableDocks === 0) {
     return statusFull({
-      stationName: station.stationName.replace(' & ', ' and '),
+      stationName: '<say-as interpret-as="address">'+ station.stationName.replace(' & ', ' and ') + '</say-as>',
       numBikes: station.availableBikes,
       numAvailableDocks: station.availableDocks
     });
   } else if (station.availableBikes === 0) {
     return statusEmpty({
-      stationName: station.stationName.replace(' & ', ' and '),
+      stationName: '<say-as interpret-as="address">'+ station.stationName.replace(' & ', ' and ') + '</say-as>',
       numBikes: station.availableBikes,
       numAvailableDocks: station.availableDocks
     });
   } else {
     return status({
-      stationName: station.stationName.replace(' & ', ' and '),
+      stationName: '<say-as interpret-as="address">'+ station.stationName.replace(' & ', ' and ') + '</say-as>',
       numBikes: station.availableBikes,
       numAvailableDocks: station.availableDocks
     });

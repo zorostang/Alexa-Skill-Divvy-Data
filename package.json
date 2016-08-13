@@ -20,6 +20,7 @@
     "chai-as-promised": "^5.3.0",
     "lodash": "^4.13.1",
     "mocha": "^2.5.3",
-    "request-promise": "^3.0.0"
+    "request-promise": "^3.0.0",
+    "wuzzy": "^0.1.2"
   }
 }
